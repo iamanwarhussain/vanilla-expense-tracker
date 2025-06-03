@@ -1,0 +1,21 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Node.js dependencies if added in the future
+node_modules/
+
+# Ignore environment and config files
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignore log files
+*.log
+
+# Ignore build files if using bundlers in future
+dist/
+build/
+
+# Ignore any VSCode settings
+.vscode/

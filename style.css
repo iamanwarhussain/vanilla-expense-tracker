@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+main{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto;
+}
+
+.hidden{
+    display: none;
+}
+
+.left-bar{
+    height: 100%;
+    width: 40%;
+    background-color: #393E46;
+}
+
+.instructions{
+    text-align: center;
+    font-size: 16px;
+    color: #eeeeee8f;
+    line-height: 3.5vh;
+}
+
+.social-media-links nav a{
+    color: #EEEEEE;
+    text-decoration: none;
+    font-size: 1.8vw;
+    margin: .5rem;
+}
+.social-media-links {
+    width: 100%;
+    position: relative;
+}
+.social-media-links nav{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 3rem;
+}
+
+.right-bar{
+    height: 100%;
+    width: 60%;
+    position: relative;
+    background-color: #222831;
+}
+
+.right-bar h5{
+    font-size: 3vw;
+    color: #EEEEEE;
+    display: flex;
+    justify-content: space-around;
+    margin: 1.2rem;
+    border-bottom: 4px solid rgba(255, 247, 0, 0.37);
+    padding-bottom: 1rem;
+}
+
+.right-bar ul{
+    margin: .5rem 1.3rem;
+    font-size: 2vw;
+    color: #EEEEEE;
+}
+
+.lists li{
+    margin:  1rem;
+    margin-left: 2rem;
+}
+
+.remove-btn{
+    background-color: #ff1f0692;
+    color: #EEEEEE;
+    font-size: 1.5vw;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 10px;
+}
+.remove-btn:hover{
+    background-color: red;
+    color: #ffffff;
+}
+
+.lists{
+    height: 70%;
+    background-color: #393E46;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.totalCost {
+    font-size: 3vw;
+    color: rgba(255, 217, 0, 0.659);
+    box-shadow: 2px 4px 12px #fff;
+    text-align: center;
+}
+
+form{
+    display: flex ;
+    flex-direction: column;
+    margin: 4rem 1.5rem ;
+    gap: 8px;
+}
+
+.expense-input, .cost-input{
+    padding: .8rem ;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.add-btn{
+    padding: .5rem;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right , rgb(255, 1, 255) , rgb(156, 0, 156));
+    color: #EEEEEE;
+    font-weight: 750;
+}
+.add-btn:hover{
+    background-image: linear-gradient(to bottom right , rgb(156 , 0 , 156) , rgb(255 , 1 , 255));
+}
+
+.right-bar h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 10vw;
+    color: #eeeeee40;
+}
