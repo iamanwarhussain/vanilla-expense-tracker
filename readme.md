@@ -20,7 +20,7 @@ A simple and clean Expense Tracker web application to help you manage your expen
 
 ## 📸 Preview
 
-![Preview](./previewofapp.PNG)
+![Preview](./app-screen-shot.PNG)
 
 ## 📂 Project Structure
 
@@ -47,17 +47,21 @@ A simple and clean Expense Tracker web application to help you manage your expen
 📌 Best Practices Followed
     Separation of concerns (HTML, CSS, JS in different files)
 
-    ```<ul>
-    <li>Input validation</li>
-    <li>Data persistence with localStorage</li>
-    <li>Mobile-friendly layout</li>
-    ```</ul>
+    Input validation
+
+    Data persistence with localStorage
+
+    Mobile-friendly layout
+    
 
 💡 Future Improvements (Optional)
 
     Filter or categorize expenses
+
     Add income tracking
+
     Export/Import data
+
     Add dark/light theme toggle
 
 
